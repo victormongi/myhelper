@@ -127,3 +127,4 @@ $future = $dt->addMonth();
 echo $dt->subDays(10)->diffForHumans();     // 10 days ago
 echo $dt->diffForHumans($past);             // 1 month ago
 echo $dt->diffForHumans($future);           // 1 month before
+"victor mongi"
