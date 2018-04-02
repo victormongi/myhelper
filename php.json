@@ -1,0 +1,34 @@
+{
+  "PHP public method": {
+    "prefix": "met",
+    "body": [
+      "public function $1()",
+      "{",
+      "  $0",
+      "}"
+    ],
+    "description": "New public method."
+  },
+
+  "PHP protected method": {
+    "prefix": "pmet",
+    "body": [
+      "protected function $1()",
+      "{",
+      "  $0",
+      "}"
+    ],
+    "description": "New public method."
+  },
+
+  "PHP class": {
+    "prefix": "class",
+    "body": [
+      "class ${TM_FILENAME_BASE}",
+      "{",
+      "  $0",
+      "}"
+    ],
+    "description": "New public method."
+  }
+}
